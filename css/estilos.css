@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+}
+
+.contenedor{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/evento.jpg);
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.cont{  
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 50px;
+    border-radius: 100px;
+    background-color: rgba(1,11, 133, 0.4);
+    
+}
+.contChico{  
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 90px;
+    background-color: rgba(18, 20, 37, 0.9);
+}
+.contMasChico{  
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    border-radius: 70px;
+    background-color: rgba(9, 11, 27, 0.7);
+}
+#contCompra{  
+    width: 600px;
+    padding: 50px;
+    border-radius: 100px;
+    background-color: rgba(1,11, 133, 0.4);
+    text-align: center;
+    
+}
+#contMap{
+    border-radius: 100px;
+    background-color: rgba(1,11, 133, 0.4);
+    text-align: center;
+    padding: 50px;
+}
+h1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+#kygo{
+    font-weight: bolder;
+    font-size: 40px;
+}
+#botonIniciar{
+    font-size: 20px;
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#escenario{
+    margin:20px;
+}
+#escenarioMap{
+    width: 40%;
+}
+
+#campoDelantero{
+    margin:20px;
+    border-radius: 100%;
+    border: 4px;
+}
+#campoDelantero:hover{
+    opacity: 40%;
+    transition: 1s;
+}
+#campoGeneral{
+    margin:20px;
+    border: 4px;
+    border-radius: 100%;
+}
+#campoGeneral:hover{
+    opacity: 40%;
+    transition: 1s;
+}
+.campos{
+    font-weight: bolder;
+    border: 4px solid none;
+    border-radius: 100%;
+    padding: 20px;
+   
+}
+.campos:hover{
+    font-weight: bolder;
+    opacity: 30%;
+    border: 4px solid white;
+    border-radius: 100%;
+    transition: 1s;
+   
+}
+#cuadroInfo{
+    display: flex;
+    align-items: center;
+    
+}
+.form-control1{
+    color: black;
+    background-color: white;
+}
+option{
+    color: black;
+    background-color: white;
+}
+.swal-footer {
+    background-color: rgb(133, 135, 136);
+    margin-top: 100px;
+    border-top: 3px solid #3d8fbe;
+    overflow: hidden;
+  }
+  .swal-text {
+    background-color: #2e0e3b;
+    padding: 17px;
+    border: 1px solid #F0E1A1;
+    display: block;
+    margin: 22px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    opacity:0.5;
+    border-radius: 25px;
+  }
+  .swal-overlay {
+    background-color: rgba(39, 3, 43, 0.75);
+  }
+  .tostada{
+    font-weight: bolder;
+    padding: 30px;
+  }
